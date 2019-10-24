@@ -1,0 +1,16 @@
+.cta {
+    padding: 1.8rem;
+    border-radius: 5px;
+    display: inline-block;
+    box-shadow: 0 5px 7px 1px hsl(0, 0, 90%);
+
+    &-blue {
+        background-color: $soft-blue;
+        color: white;
+    }
+
+    &-grey {
+        background-color: hsl(0, 0, 95%);
+        color: $dark-blue;
+    }
+}
