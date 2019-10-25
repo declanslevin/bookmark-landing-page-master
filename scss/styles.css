@@ -116,12 +116,28 @@ input {
   font-size: 1.4rem;
 }
 
+.fa-times {
+  color: white;
+  font-size: 1.8rem;
+}
+
+.header--nav--list {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
 .faq--list {
   text-align: left;
 }
 
 .faq--list--item--div--question__text {
   color: #252b46;
+}
+
+.faq--list--item--div--question__icon {
+  font-size: 1.8rem;
+  color: #5368df;
 }
 
 .contact {
@@ -167,6 +183,11 @@ input {
 .footer--list--item__link {
   color: inherit;
   text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer--social__icon {
+  font-size: 2.6rem;
 }
 
 .container {
@@ -209,11 +230,51 @@ input {
 }
 
 .header--nav {
-  display: none;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(37, 43, 70, 0.95);
+  width: 100vw;
+  height: 100vh;
+}
+
+.header--nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header--nav--head {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3.5rem 0;
 }
 
 .footer {
   background-color: #252b46;
+}
+
+.footer--social {
+  padding-top: 4rem;
 }
 
 .intro--hero {
@@ -395,6 +456,16 @@ input {
 
 .faq--list--item--div--question {
   padding: 3rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .faq--list--item--div--answer {
@@ -463,5 +534,9 @@ input {
 
 .footer--list--item {
   padding-top: 4rem;
+}
+
+.footer--social__icon:first-child {
+  padding-right: 4rem;
 }
 /*# sourceMappingURL=styles.css.map */

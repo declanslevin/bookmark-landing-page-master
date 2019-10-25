@@ -16,16 +16,25 @@
     <div class="container">
       <img src="./images/logo-bookmark.svg" alt="Bookmark logo" class="header__logo">
       <i class="fas fa-bars"></i>
-      <!-- <img src="./images/icon-hamburger.svg" alt=""> -->
-      <nav class="header--nav">
+    </div>
+    <nav class="header--nav">
+      <div class="container">
+        <div class="header--nav--head">
+          <img src="./images/logo-bookmark.svg" alt="Bookmark logo" class="header__logo">
+          <i class="fas fa-times"></i>
+        </div>
         <ul class="header--nav--list">
           <li class="header--nav--list__item">Features</li>
           <li class="header--nav--list__item">Pricing</li>
           <li class="header--nav--list__item">Contact</li>
           <li class="header--nav--list__item">Login</li>
         </ul>
-      </nav>
-    </div>
+        <div class="header--nav--social">
+          <i class="header--nav--social__icon fab fa-facebook-square"></i>
+          <i class="header--nav--social__icon fab fa-twitter"></i>
+        </div>
+      </div>
+    </nav>
   </header>
 
   <section class="intro">
@@ -172,7 +181,7 @@
               <p class="faq--list--item--div--question__text">
                 What is Bookmark?
               </p>
-              <i class="faq--list--item--div--question__icon"></i>
+              <i class="fas fa-chevron-down faq--list--item--div--question__icon"></i>
             </div>
             <div class="faq--list--item--div--answer">
               <p class="faq--list--item--div--answer__text hide">
@@ -188,8 +197,7 @@
               <p class="faq--list--item--div--question__text">
                 How can I request a new browser?
               </p>
-              <span class="faq--list--item--div--question__icon icon"></span>
-              <img src="./images/icon-arrow.svg" alt="">
+              <i class="fas fa-chevron-down faq--list--item--div--question__icon"></i>
             </div>
             <div class="faq--list--item--div--answer">
               <p class="faq--list--item--div--answer__text hide">
@@ -207,7 +215,7 @@
               <p class="faq--list--item--div--question__text">
                 Is there a mobile app?
               </p>
-              <i class="faq--list--item--div--question__icon"></i>
+              <i class="fas fa-chevron-down faq--list--item--div--question__icon"></i>
             </div>
             <div class="faq--list--item--div--answer">
               <p class="faq--list--item--div--answer__text hide">
@@ -224,7 +232,7 @@
               <p class="faq--list--item--div--question__text">
                 What about other Chromium browsers?
               </p>
-              <i class="faq--list--item--div--question__icon"></i>
+              <i class="fas fa-chevron-down faq--list--item--div--question__icon"></i>
             </div>
             <div class="faq--list--item--div--answer">
               <p class="faq--list--item--div--answer__text hide">
@@ -265,8 +273,8 @@
         </li>
       </ul>
       <div class="footer--social">
-        <i class="footer--social__facebook"></i>
-        <i class="footer--social__twitter"></i>
+        <i class="footer--social__icon fab fa-facebook-square"></i>
+        <i class="footer--social__icon fab fa-twitter"></i>
       </div>
     </div>
   </footer>
