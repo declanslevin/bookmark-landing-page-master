@@ -67,6 +67,10 @@ a {
   text-decoration: none;
 }
 
+.fa-bars {
+  font-size: 18px;
+}
+
 html {
   font-size: 10px;
   font-family: "Rubik", sans-serif;
@@ -106,6 +110,63 @@ a {
 
 li {
   font-size: 1.6rem;
+}
+
+input {
+  font-size: 1.4rem;
+}
+
+.faq--list {
+  text-align: left;
+}
+
+.faq--list--item--div--question__text {
+  color: #252b46;
+}
+
+.contact {
+  color: white;
+}
+
+.contact h3 {
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 4px;
+}
+
+.contact h2 {
+  color: inherit;
+}
+
+.contact--form__email::-webkit-input-placeholder {
+  opacity: 0.4;
+}
+
+.contact--form__email:-ms-input-placeholder {
+  opacity: 0.4;
+}
+
+.contact--form__email::-ms-input-placeholder {
+  opacity: 0.4;
+}
+
+.contact--form__email::placeholder {
+  opacity: 0.4;
+}
+
+.contact--form__button {
+  color: inherit;
+  font-weight: 500;
+}
+
+.footer {
+  color: white;
+}
+
+.footer--list--item__link {
+  color: inherit;
+  text-transform: uppercase;
 }
 
 .container {
@@ -149,6 +210,10 @@ li {
 
 .header--nav {
   display: none;
+}
+
+.footer {
+  background-color: #252b46;
 }
 
 .intro--hero {
@@ -313,5 +378,90 @@ li {
 
 .extension--tabs--tab--bottom__cta {
   margin: 2.5rem 0;
+  width: 80%;
+}
+
+.faq {
+  padding-top: 14rem;
+}
+
+.faq__header {
+  padding-bottom: 3rem;
+}
+
+.faq__text {
+  padding-bottom: 5rem;
+}
+
+.faq--list--item--div--question {
+  padding: 3rem 0;
+}
+
+.faq--list--item--div--answer {
+  border-bottom: 1px solid #9194a1;
+}
+
+.faq--list--item--div--answer__text {
+  padding-bottom: 3rem;
+}
+
+.faq--list--item--div--answer__text.hide {
+  display: none;
+}
+
+.faq__cta {
+  margin: 5rem 0 12rem;
+}
+
+.icon {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background: url("./images/icon-arrow.svg") no-repeat;
+}
+
+.contact {
+  background-color: #5368df;
+  padding: 7.5rem 0 6rem;
+}
+
+.contact__header-join {
+  padding-bottom: 2rem;
+}
+
+.contact__header-main {
+  padding-bottom: 3rem;
+}
+
+.contact--form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact--form__email {
+  padding: 1.8rem 2rem;
+  border-radius: 10px;
+  border-style: none;
+  margin-bottom: 1.5rem;
+}
+
+.contact--form__button {
+  padding: 1.8rem 0;
+  border-style: none;
+  border-radius: 10px;
+  background-color: #fa5757;
+}
+
+.footer {
+  padding: 4rem 0;
+}
+
+.footer--list--item {
+  padding-top: 4rem;
 }
 /*# sourceMappingURL=styles.css.map */

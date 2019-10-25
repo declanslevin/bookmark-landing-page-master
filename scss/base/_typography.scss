@@ -38,3 +38,54 @@ a {
 li {
     font-size: 1.6rem;
 }
+
+input {
+    font-size: 1.4rem;
+}
+
+.faq--list {
+    text-align: left;
+
+    &--item--div--question__text {
+        color: $dark-blue;
+    }
+}
+
+.contact {
+    color: white;
+
+    h3 {
+        color: inherit;
+        text-transform: uppercase;
+        font-size: 1rem;
+        letter-spacing: 4px;
+    }
+
+    h2 {
+        color: inherit;
+    }
+
+    &--form {
+        &__email::placeholder {
+            opacity: 0.4;
+        }
+
+        &__button {
+            color: inherit;
+            font-weight: 500;
+        }
+    }
+}
+
+.footer {
+    color: white;
+
+    &--list {
+        &--item {
+            &__link {
+                color: inherit;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

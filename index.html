@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link href="https://fonts.googleapis.com/css?family=Rubik:400,500&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
   <link rel="stylesheet" href="./scss/styles.css">
   
   <title>Frontend Mentor | Bookmark landing page</title>
@@ -14,7 +15,8 @@
   <header class="header">
     <div class="container">
       <img src="./images/logo-bookmark.svg" alt="Bookmark logo" class="header__logo">
-      <img src="./images/icon-hamburger.svg" alt="">
+      <i class="fas fa-bars"></i>
+      <!-- <img src="./images/icon-hamburger.svg" alt=""> -->
       <nav class="header--nav">
         <ul class="header--nav--list">
           <li class="header--nav--list__item">Features</li>
@@ -166,53 +168,70 @@
       <ul class="faq--list">
         <li class="faq--list--item">
           <div class="faq--list--item--div">
-            <p class="faq--list--item--div__question">
-              What is Bookmark?
-            </p>
-            <p class="faq--list--item--div__answer">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
-              justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
-            </p>
-            <i class="faq--list--item--div__icon"></i>
+            <div class="faq--list--item--div--question">
+              <p class="faq--list--item--div--question__text">
+                What is Bookmark?
+              </p>
+              <i class="faq--list--item--div--question__icon"></i>
+            </div>
+            <div class="faq--list--item--div--answer">
+              <p class="faq--list--item--div--answer__text hide">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+                justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+              </p>  
+            </div>
           </div>
         </li>
         <li class="faq--list--item">
           <div class="faq--list--item--div">
-            <p class="faq--list--item--div__question">
-              How can I request a new browser?
-            </p>
-            <p class="faq--list--item--div__answer">
-              Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
-              Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
-              ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
-              Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
-            </p>
-            <i class="faq--list--item--div__icon"></i>
+            <div class="faq--list--item--div--question">
+              <p class="faq--list--item--div--question__text">
+                How can I request a new browser?
+              </p>
+              <span class="faq--list--item--div--question__icon icon"></span>
+              <img src="./images/icon-arrow.svg" alt="">
+            </div>
+            <div class="faq--list--item--div--answer">
+              <p class="faq--list--item--div--answer__text hide">
+                Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+                Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+                ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+                Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+              </p>  
+            </div>
           </div>
         </li>
         <li class="faq--list--item">
           <div class="faq--list--item--div">
-            <p class="faq--list--item--div__question">
-              Is there a mobile app?
-            </p>
-            <p class="faq--list--item--div__answer">
-              Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
-              urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
-              sollicitudin ex et ultricies bibendum.
-            </p>
-            <i class="faq--list--item--div__icon"></i>
+            <div class="faq--list--item--div--question">
+              <p class="faq--list--item--div--question__text">
+                Is there a mobile app?
+              </p>
+              <i class="faq--list--item--div--question__icon"></i>
+            </div>
+            <div class="faq--list--item--div--answer">
+              <p class="faq--list--item--div--answer__text hide">
+                Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+                urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+                sollicitudin ex et ultricies bibendum.
+              </p>  
+            </div>
           </div>
         </li>
         <li class="faq--list--item">
           <div class="faq--list--item--div">
-            <p class="faq--list--item--div__question">
-              What about other Chromium browsers?
-            </p>
-            <p class="faq--list--item--div__answer">
-              Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
-              vitae neque eget nisl gravida pellentesque non ut velit.
-            </p>
-            <i class="faq--list--item--div__icon"></i>
+            <div class="faq--list--item--div--question">
+              <p class="faq--list--item--div--question__text">
+                What about other Chromium browsers?
+              </p>
+              <i class="faq--list--item--div--question__icon"></i>
+            </div>
+            <div class="faq--list--item--div--answer">
+              <p class="faq--list--item--div--answer__text hide">
+                Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+                vitae neque eget nisl gravida pellentesque non ut velit.
+              </p>  
+            </div>
           </div>
         </li>
       </ul>
@@ -225,7 +244,7 @@
       <h3 class="contact__header-join">35,000+ already joined</h3>
       <h2 class="contact__header-main">Stay up-to-date with what we’re doing</h2>
       <div class="contact--form">
-        <input type="email" name="" id="" class="contact--form__email">
+        <input type="email" name="" id="" class="contact--form__email" placeholder="Enter your email address">
         <input type="button" value="Contact Us" class="contact--form__button">
       </div>
     </div>

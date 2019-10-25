@@ -140,7 +140,6 @@
         align-items: center;
 
         &--tab {
-            // border: 1px solid red;
             border-radius: 10px;
             box-shadow: 0 5px 10px 3px hsla(0, 0, 90%, 50%);
             margin-bottom: 4rem;
@@ -161,9 +160,102 @@
             &--bottom {
                 &__cta {
                     margin: 2.5rem 0;
+                    width: 80%;
                 }
                 
             }
+        }
+    }
+}
+
+.faq {
+    padding-top: 14rem;
+
+    &__header {
+        padding-bottom: 3rem;
+    }
+
+    &__text {
+        padding-bottom: 5rem;
+    }
+
+    &--list--item {
+        &--div {
+            &--question {
+                padding: 3rem 0;
+
+                &__icon {
+                    
+                }
+            }
+
+            &--answer {
+                border-bottom: 1px solid $grey-blue;
+
+                &__text {
+                    padding-bottom: 3rem;
+
+                    &.hide {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &__cta {
+        margin: 5rem 0 12rem;
+    }
+}
+
+.icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url("./images/icon-arrow.svg") no-repeat;
+}
+
+.contact {
+    background-color: $soft-blue;
+    padding: 7.5rem 0 6rem;
+
+    &__header {
+        &-join {
+            padding-bottom: 2rem;
+        }
+
+        &-main {
+            padding-bottom: 3rem;
+        }
+    }
+
+    &--form {
+        display: flex;
+        flex-direction: column;
+
+        &__email {
+            padding: 1.8rem 2rem;
+            border-radius: 10px;
+            border-style: none;
+            margin-bottom: 1.5rem;
+        }
+
+        &__button {
+            padding: 1.8rem 0;
+            border-style: none;
+            border-radius: 10px;
+            background-color: $soft-red;
+        }
+    }
+    
+}
+
+.footer {
+    padding: 4rem 0;
+
+    &--list {
+        &--item {
+            padding-top: 4rem;
         }
     }
 }
