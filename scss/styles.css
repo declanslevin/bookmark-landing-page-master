@@ -121,10 +121,15 @@ input {
   font-size: 1.8rem;
 }
 
-.header--nav--list {
+.header--nav--body--list--item__link {
+  font-size: 1.8rem;
   color: white;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.header--nav--body--list--item__link .login {
+  font-weight: 500;
 }
 
 .faq--list {
@@ -253,6 +258,7 @@ input {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  height: 100%;
 }
 
 .header--nav--head {
@@ -267,6 +273,40 @@ input {
       -ms-flex-align: center;
           align-items: center;
   padding: 3.5rem 0;
+}
+
+.header--nav--body {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header--nav--body--list--item {
+  padding: 3rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.header--nav--body--list--item .login {
+  padding: 15px 0;
+  display: inline-block;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 100%;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
 }
 
 .footer {

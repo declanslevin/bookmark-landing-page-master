@@ -48,10 +48,15 @@ input {
     font-size: 1.8rem;
 }
 
-.header--nav--list {
+.header--nav--body--list--item__link {
+    font-size: 1.8rem;
     color: white;
     text-transform: uppercase;
     letter-spacing: 2px;
+
+    .login {
+        font-weight: 500;
+    }
 }
 
 .faq--list {
